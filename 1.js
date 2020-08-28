@@ -1,1 +1,1 @@
-const add = (a, b) => a + b;
+const deductNumber = (a, b) => a - b;
