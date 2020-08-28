@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Git Workflow</h1>
+    <ul>
+        <li>1) Master - stable production</li>
+        <li>
+            2) Develop - main branch for development
+            <ul>
+                <li>2.1) feature#1 - code should be checked, tested</li>
+            </ul>
+        </li>
+        <li>
+            3) Merge develop with master
+            // git checkout master
+            // git merge develop
+        </li>
+        <li>
+            4) Create Release branch from develop and test all features
+        </li>
+        <li>
+            5) Merge master with release
+        </li>
+        <li>
+            6) HotFixes: (fix urgent bug on production)
+            <ul>
+                <li>Create new branch from master</li>
+                <li>Fix, test, merge back to master</li>
+                <li>merge with develop</li>
+            </ul>
+        </li>
+    </ul>
+
+
+    <h2>Git flow</h2>
+    <ul>
+        <li></li>
+    </ul>
+</body>
+
+</html>
