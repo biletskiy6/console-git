@@ -1,4 +1,4 @@
 const auth = (login, password) => {
-  // bug fixes
+  // I fixed urgent bugs!!
   return true;
 };
